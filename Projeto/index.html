@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <title> Home </title>
+</head>
+
+<body>
+  <header class="flex fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Logo.png" class="logotipo">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="sobrenos.html">Sobre</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Conteudo</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="conteudo.html">Ver tudo</a></li>
+                  <li><a class="dropdown-item" href="#">Raça</a></li>
+                  <li><a class="dropdown-item" href="#">Classe</a></li>
+                  <li><a class="dropdown-item" href="#">Gênero</a></li>
+                  <li><a class="dropdown-item" href="#">Geração</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Faça parte</a>
+              </li>
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Ir</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!--Tirei o fluid daqui -->
+  <section class="carrosel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\1.png" class="d-block w-100" alt="...">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdH4CeQmwowuWzbxDbsxeEAWdqU0VX6l2iEFOm-R3NPSZ-KVw/viewform"
+            target="_blank">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\2.png" class="d-block w-100"
+              alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://open.spotify.com/playlist/3JIhCohtpCxL5nXmKskQPQ" target="_blank">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\4.png" class="d-block w-100"
+              alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.instagram.com/p/CYDD1XkF2eP/" target="_blank">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\3.png" class="d-block w-100"
+              alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="container">
+      <h1 class="titulo">Mais recentes</h1>
+      <div class="row" style="display-flax;">
+        <!--justify-content: center; align-items: center;-->
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 1.webp" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero #relacionamento</h3>
+            <h2 class="card-title"><a href="#" class="tit">O B.O de pedir a camisinha na hora H</a></h2>
+            <p class="card-text">Contracepção e proteção na hora do sexo não devem ser tabus.</p>
+            <h4>Por Luana Maia</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 2.webp" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero</h3>
+            <h2 class="card-title"><a href="#" class="tit">Se liga! Nós não queremos flores.</a></h2>
+            <p class="card-text">Você conhece a verdadeira história por trás do dia 8 de março?</p>
+            <h4>Por Sarah Luísa</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 3.jpg" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero #comportamento</h3>
+            <h2 class="card-title"><a href="#" class="tit">Não dá para se amar o tempo todo</a></h2>
+            <p class="card-text">Positividade tóxica e a dificuldade em assumir nossas dores.</p>
+            <h4>Por Lia Dacota</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 4.jpg" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero</h3>
+            <h2 class="card-title"><a href="#" class="tit">Desmestificando a masturbação feminina</a></h2>
+            <p class="card-text">Sexo a sós é bom demais e hoje eu vou te contar o porquê.</p>
+            <h4>Por Eva Seixas</h4>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary" style="margin:auto"> Ver mais</a>
+
+      <h1 class="titulo">Os queridinhos</h1>
+      <div class="row" style="display-flax;">
+        <!--justify-content: center; align-items: center;-->
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 1.webp" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero #relacionamento</h3>
+            <h2 class="card-title"><a href="#" class="tit">O B.O de pedir a camisinha na hora H</a></h2>
+            <p class="card-text">Contracepção e proteção na hora do sexo não devem ser tabus.</p>
+            <h4>Por Luana Maia</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 2.webp" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero</h3>
+            <h2 class="card-title"><a href="#" class="tit">Se liga! Nós não queremos flores.</a></h2>
+            <p class="card-text">Você conhece a verdadeira história por trás do dia 8 de março?</p>
+            <h4>Por Sarah Luísa</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 3.jpg" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero #comportamento</h3>
+            <h2 class="card-title"><a href="#" class="tit">Não dá para se amar o tempo todo</a></h2>
+            <p class="card-text">Positividade tóxica e a dificuldade em assumir nossas dores.</p>
+            <h4>Por Lia Dacota</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 4.jpg" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero</h3>
+            <h2 class="card-title"><a href="#" class="tit">Desmestificando a masturbação feminina</a></h2>
+            <p class="card-text">Sexo a sós é bom demais e hoje eu vou te contar o porquê.</p>
+            <h4>Por Eva Seixas</h4>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary" style="margin:auto"> Ver mais</a>
+    </section>
+  </main>
+
+  <div class="anuncio-barra container-fluid" style="margin-bottom: 80px; margin-top: 100px;">
+    <div class="row">
+      <div class="col-8">
+        <h1 class="text2anun" style="padding-top: 80px; margin-left: 120px;">
+          Quer receber nosso conteúdo <br>em primeira mão?<br>
+        </h1>
+        <h2 class="id=barrah12" style="margin-left: 120px;">Assine a nossa newsletter agora mesmo para isso:</h2>
+      </div>
+      <form class="col-3" style="margin-top: 20px">
+        <div class="mb-4">
+          <label for="exampleInputEmail1" class="form-label">Nome</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Email</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Aceito receber emails frequentes</label>
+        </div>
+        <a href="" class="btn btn-primary" style="margin:auto">Assinar</a>
+      </form>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="container">
+      <h1 class="titulo">Selecionados para você</h1>
+      <div class="row" style="display-flax;">
+        <!--justify-content: center; align-items: center;-->
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 1.webp" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero #relacionamento</h3>
+            <h2 class="card-title"><a href="#" class="tit">O B.O de pedir a camisinha na hora H</a></h2>
+            <p class="card-text">Contracepção e proteção na hora do sexo não devem ser tabus.</p>
+            <h4>Por Luana Maia</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 2.webp" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero</h3>
+            <h2 class="card-title"><a href="#" class="tit">Se liga! Nós não queremos flores.</a></h2>
+            <p class="card-text">Você conhece a verdadeira história por trás do dia 8 de março?</p>
+            <h4>Por Sarah Luísa</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 3.jpg" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero #comportamento</h3>
+            <h2 class="card-title"><a href="#" class="tit">Não dá para se amar o tempo todo</a></h2>
+            <p class="card-text">Positividade tóxica e a dificuldade em assumir nossas dores.</p>
+            <h4>Por Lia Dacota</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 4.jpg" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero</h3>
+            <h2 class="card-title"><a href="#" class="tit">Desmestificando a masturbação feminina</a></h2>
+            <p class="card-text">Sexo a sós é bom demais e hoje eu vou te contar o porquê.</p>
+            <h4>Por Eva Seixas</h4>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary" style="margin:auto"> Ver mais</a>
+
+      <h1 class="titulo">Curtidos por você</h1>
+      <div class="row" style="display-flax;">
+        <!--justify-content: center; align-items: center;-->
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 1.webp" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero #relacionamento</h3>
+            <h2 class="card-title"><a href="#" class="tit">O B.O de pedir a camisinha na hora H</a></h2>
+            <p class="card-text">Contracepção e proteção na hora do sexo não devem ser tabus.</p>
+            <h4>Por Luana Maia</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 2.webp" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero</h3>
+            <h2 class="card-title"><a href="#" class="tit">Se liga! Nós não queremos flores.</a></h2>
+            <p class="card-text">Você conhece a verdadeira história por trás do dia 8 de março?</p>
+            <h4>Por Sarah Luísa</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 3.jpg" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero #comportamento</h3>
+            <h2 class="card-title"><a href="#" class="tit">Não dá para se amar o tempo todo</a></h2>
+            <p class="card-text">Positividade tóxica e a dificuldade em assumir nossas dores.</p>
+            <h4>Por Lia Dacota</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 16rem; height: 25rem; margin-bottom: 40px; margin-left:16px;" class="col-3">
+          <div class="tamb" style="width: 16rem; height: 12rem;">
+            <img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Tamb 4.jpg" class="card-img-top"
+              alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-tag">#gênero</h3>
+            <h2 class="card-title"><a href="#" class="tit">Desmestificando a masturbação feminina</a></h2>
+            <p class="card-text">Sexo a sós é bom demais e hoje eu vou te contar o porquê.</p>
+            <h4>Por Eva Seixas</h4>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary"> Ver mais</a>
+
+    </section>
+    <section class="fluid">
+      <section class="fundadoras">
+        <h1 class="titulo">Parceiras da saúde</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm" class="foto">
+              <div class="perfil">
+                <img class="img-fluid" src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Vitória.png">
+              </div>
+              <h2><a href="#" class="tit">Vitória Santos</a></h2>
+              <p>Psicóloga</p>
+            </div>
+            <div class="col-sm">
+              <div class="perfil">
+                <img class="img-fluid" src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Sandra.png">
+              </div>
+              <h2><a href="#" class="tit">Sandra Ribeiro</a></h2>
+              <p>Ginecologista</p>
+            </div>
+            <div class="col-sm">
+              <div class="perfil">
+                <img class="img-fluid" src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Sarah.png">
+              </div>
+              <h2><a href="#" class="tit">Sarah Luísa</a></h2>
+              <p>Sexóloga</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer style="margin-top: 120px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h2 class="fonteRodape">De lua:</h2>
+          <p class="fonteRodape">Home</p>
+          <p class="fonteRodape">Sobre</p>
+          <p class="fonteRodape">Conteúdo</p>
+          <p class="fonteRodape">Faça parte</p>
+        </div>
+        <div class="col-4">
+          <h2 class="fonteRodape">Entre em contato:</h2>
+          <p class="fonteRodape">
+            <i class="bi bi-envelope"></i> delua@gmail.com
+          </p>
+        </div>
+        <div class="col-4">
+          <h2 class="fonteRodape">Permaneça conectado:</h2>
+          <div class="fonteRodape">
+            <a href="https://www.instagram.com/delua.com_/" target="_blank"> <img
+                src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Instagram.png" class="Instagram-img"
+                style="width: 32px; margin-right: 8px; margin-bottom: 8px;" alt="..."></a>
+            <a href="https://open.spotify.com/user/314s7ibhjhtq4r32s66tzob6zeg4?si=80d2a3bba2144c42&nd=1"
+              target="_blank"><img src="C:\Users\isado\OneDrive\Área de Trabalho\PROJETO\Imagens\Spotify.png"
+                class="Spotify-img" style="width: 32px;  right: 32px;" alt="..."></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</html>
